@@ -46,7 +46,7 @@ def _construct_age_ratings_dict() -> None:
 		rating_by_age_dict[row['UserAge']] = age_rating
 
 
-def _recommend_movies(user_age, max_recommendations) -> list:
+def _recommend_movies(user_age: int, max_recommendations: int) -> list:
 	"""
 	Returns a list of recommend movies from the rating_by_age_dict
 	based on the given user_age.
