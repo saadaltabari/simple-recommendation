@@ -1,0 +1,61 @@
+,UserID,UserName,UserAge,MovieID,MovieName,Rating
+0,1,Adam,15,1,dinosaur planet,3
+1,2,Amir,20,2,"isle of man tt 2004, review",2
+2,3,Brad,25,3,character,1
+3,4,Krishna,35,4,paula abdul's get up & dance,4
+4,5,Sangy,21,5,the rise and fall of ecw,5
+5,6,Mandar,36,6,sick,4
+6,7,Pushkar,19,7,8 man,3
+7,8,Gary,20,8,what the hell do we know!?,2
+8,9,Ghalia,40,9,class of nuke 'em high 2,1
+9,10,Ana,13,10,fighter,2
+10,4,Krishna,35,11,full frame: documentary shorts,3
+11,5,Sangy,21,12,my favorite brunette,4
+12,6,Mandar,36,13,lord of the rings: the return of the king: extended edition: bonus material,5
+13,7,Pushkar,19,14,nature: antarctica,2
+14,1,Adam,15,15,neil diamond: greatest hits live,2
+15,2,Amir,20,16,screamers,3
+16,3,Brad,25,17,7 seconds,4
+17,4,Krishna,35,18,immortal beloved,2
+18,5,Sangy,21,19,by dawn's early light,3
+19,8,Gary,20,20,seeta aur geeta,4
+20,9,Ghalia,40,21,strange relations,4
+21,10,Ana,13,22,chump change,5
+22,4,Krishna,35,23,clifford: clifford saves the day! clifford's fluffiest friend cleo,4
+23,2,Amir,20,24,my bloody valentine,3
+24,3,Brad,25,25,inspector morse 31: death is now my neighbour,2
+25,4,Krishna,35,26,never die alone,4
+26,5,Sangy,21,27,sesame street: elmo's world: the street we live on,5
+27,6,Mandar,36,28,lilo and stitch,3
+28,7,Pushkar,19,29,boycott,3
+29,8,Gary,20,30,something's gotta give,4
+30,9,Ghalia,40,31,classic albums: meat loaf: bat out of hell,5
+31,10,Ana,13,32,abc primetime: mel gibson's the passion of the christ,2
+32,4,Krishna,35,33,aqua teen hunger force: vol. 1,1
+33,5,Sangy,21,34,ashtanga yoga: beginner's practice with nicki doane,2
+34,6,Mandar,36,35,ferngully 2: the magical rescue,3
+35,1,Adam,15,36,lady chatterley,3
+36,2,Amir,20,37,zatoichi's conspiracy,5
+37,3,Brad,25,38,daydream obsession,5
+38,4,Krishna,35,39,love reinvented,5
+39,5,Sangy,21,40,pitcher and the pin-up,3
+40,6,Mandar,36,41,horror vision,2
+41,7,Pushkar,19,42,searching for paradise,3
+42,8,Gary,20,43,silent service,4
+43,9,Ghalia,40,44,spitfire grill,2
+44,10,Ana,13,45,the love letter,1
+45,4,Krishna,35,46,rudolph the red-nosed reindeer,3
+46,5,Sangy,21,47,the bad and the beautiful,4
+47,6,Mandar,36,48,justice league,5
+48,7,Pushkar,19,49,devo: the complete truth about de-evolution,3
+49,1,Adam,15,50,a yank in the raf,2
+50,7,Pushkar,19,51,jonah: a veggietales movie: bonus material,3
+51,8,Gary,20,52,the weather underground,4
+52,9,Ghalia,40,53,the bonesetter,5
+53,10,Ana,13,54,we're not married,3
+54,4,Krishna,35,55,jade,3
+55,5,Sangy,21,56,carandiru,1
+56,6,Mandar,36,57,richard iii,2
+57,7,Pushkar,19,58,dragonheart,3
+58,1,Adam,15,59,sex and the beauties,4
+59,7,Pushkar,19,60,the libertine,5

@@ -101,18 +101,55 @@ def _update_recommendation_list() -> None:
 		).str.join(', ')
 
 
-def _save_recommendations() -> None:
+def _save_dataframe_as_csv(df: pd.DataFrame, file_name: str) -> None:
 	"""
-	Write the movie_recommendations DataFrame
+	Write the contents of the provided DataFrame
 	to a csv file.
+
+	:param df: pandas.DataFrame, the data that will
+	be saved to a csv file.
+	:param file_name: str, the name of the csv file
+	the data will be saved to.
 	:return:
 	"""
-	movie_recommendations.to_csv('./files/results.csv')
+	df.to_csv(f"./files/{file_name}.csv")
 
 
 if __name__ == '__main__':
+	# Task 1 - Separate Movie IDs and Movie names.
 	_separate_movie_id_name()
+	_save_dataframe_as_csv(
+		df=user_ratings,
+		file_name='UpdatedMovieIDs'
+	)
+	print("Separated Movie IDs and Movie names. Output in "
+		  "file UpdatedMovieIDs.csv")
+
+	# Task 2 - Capitalizing the first letter of
+	# every word in the movie names.
 	_capitalize_movie_names()
+	_save_dataframe_as_csv(
+		df=user_ratings,
+		file_name='CapitalizedMovieNames'
+	)
+	print("Capitalized all movie names. Output in file "
+		  "CapitalizedMovieNames.csv")
+
+	# Task 3 - Read in from your new CSV file
+	# from Task 2 and parse data into
+	# lists and dictionaries
 	_construct_age_ratings_dict()
+	print("Parsed ratings data into dictionary.")
+
+	# Task 4 - Find the recommended movies for
+	# a given age from best to worst ratings
 	_update_recommendation_list()
-	_save_recommendations()
+	print("Recommended movies to all users in the NewUsers.csv file")
+
+	# Task 5 - Recommend movies to users in the
+	# second input file.
+	_save_dataframe_as_csv(
+		df=movie_recommendations,
+		file_name='results'
+	)
+	print("Saved recommended movies to the results.csv file.")
