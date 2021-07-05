@@ -4,7 +4,7 @@ Summer preparation, python assignment. A simple app for recommending movies to u
 
 ### Requirements
 
-- python >= 3.7.1
+- python >= 3.9.0
 
 ### Set up
 
